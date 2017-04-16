@@ -72,7 +72,7 @@ DEFAULT_TEMPLATE = """
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>%(title)s</title>
+    <title>Bitsign Explorer</title>
 
     <!-- Bootstrap and Theme -->
     <link href="%(dotdot)s%(STATIC_PATH)scss/bootstrap.min.css" rel="stylesheet">
@@ -88,9 +88,9 @@ DEFAULT_TEMPLATE = """
 <body>
     <div class="container">
 	<table><td>
-	<a title="Back to home" href="%(dotdot)s%(HOMEPAGE)s"><img src="%(dotdot)s%(STATIC_PATH)slogo32.png" alt="MultiChain logo" /></a>
+	<a title="Back to home" href="%(dotdot)s%(HOMEPAGE)s"><img src="%(dotdot)s%(STATIC_PATH)slogo32.png" alt="BSG logo" /></a>
 	</td><td style="padding-left: 10px;" valign="middle">
-	<h1>%(h1)s<h1>
+	<h1>BSG Explorer<h1>
 	</td></table>
     %(body)s
     <!--<p><a href="%(dotdot)sq">API</a> (machine-readable pages)</p>-->
