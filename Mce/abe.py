@@ -88,7 +88,7 @@ DEFAULT_TEMPLATE = """
 <body>
     <div class="container">
 	<table><td>
-	<a title="Back to home" href="%(dotdot)s%(HOMEPAGE)s"><img src="%(dotdot)s%(STATIC_PATH)slogo32.png" alt="BSG logo" /></a>
+	<a title="Back to home" href="%(dotdot)s%(HOMEPAGE)s"><img src="%(dotdot)s%(STATIC_PATH)slogo48.png" alt="BSG logo" /></a>
 	</td><td style="padding-left: 10px;" valign="middle">
 	<h1>BSG Explorer<h1>
 	</td></table>
